@@ -63,7 +63,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>camelJms.RouteMain</mainClass>
+							<mainClass>camelJms.Main</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>

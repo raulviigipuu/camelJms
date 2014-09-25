@@ -2,12 +2,23 @@
 
 Java, Maven, ActiveMQ
 
+Send one jms message and get result back from another queue.
 There is also some bare hands XML parsing and generating(**StAX**) involved and the result is a **executable JAR** with all the dependencies.
+Changes in application config will apply automatically without restarting. 
 
 ## Running
 
 		mvn package
 		java -jar target/camelJms-jar-with-dependencies.jar
+
+## Conf
+
+Configuration loading order:
+<ol>
+<li>From environment variable: **camelJms-conf**</li>
+<li>From command line argument: **--conf=/some/path/to/config.properties**</li>
+<li>From default location: **src/main/resources/config.properties**.</li>
+</ol>
 
 ## Example messages
 

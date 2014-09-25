@@ -15,9 +15,9 @@ Changes in application config will apply automatically without restarting.
 
 Configuration loading order:
 <ol>
-<li>From environment variable: **camelJms-conf**</li>
-<li>From command line argument: **--conf=/some/path/to/config.properties**</li>
-<li>From default location: **src/main/resources/config.properties**.</li>
+<li>From environment variable: <strong>camelJms-conf</strong></li>
+<li>From command line argument: <strong>--conf=/some/path/to/config.properties</strong></li>
+<li>From default location: <strong>src/main/resources/config.properties</strong>.</li>
 </ol>
 
 ## Example messages

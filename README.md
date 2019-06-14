@@ -1,10 +1,10 @@
-#Simple Apache Camel JMS route demo
+# Simple Apache Camel JMS route demo
 
 Java, Maven, ActiveMQ
 
 Send one jms message and get result back from another queue.
 There is also some bare hands XML parsing and generating(**StAX**) involved and the result is a **executable JAR** with all the dependencies.
-Changes in application config will apply automatically without restarting. 
+Changes in application config will apply automatically without restarting.
 
 ## Running
 
